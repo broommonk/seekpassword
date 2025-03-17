@@ -30,7 +30,7 @@ function seek_password(hash) {
 	var lower = "abcdefghijklmnopqrstuvwxyz".split("");
 	var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 	var number = "0123456789".split("");
-	var punctuation = ",.:;!?".split("");
+	var punctuation = ",.:;!?@#".split("");
 	var alphabet = lower.concat(upper).concat(number).concat(punctuation);
 	// try to generate password
 	for (var i = 0; i <= hash.length - 10; ++i) {
